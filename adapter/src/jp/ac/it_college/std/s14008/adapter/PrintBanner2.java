@@ -20,6 +20,11 @@ public PrintBanner2(String string) {
  }
 
  @Override
+ public void printString() {
+
+ }
+
+ @Override
  public void printString2() {
   banner.showWithParen2();
  }
