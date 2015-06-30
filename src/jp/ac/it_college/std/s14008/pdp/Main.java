@@ -1,5 +1,6 @@
 package jp.ac.it_college.std.s14008.pdp;
 
+import com.sun.org.apache.bcel.internal.generic.DREM;
 import jdk.nashorn.internal.runtime.regexp.JoniRegExp;
 import jp.ac.it_college.std.s14008.adapter.*;
 import jp.ac.it_college.std.s14008.pdp.template.AbstractDisplay;
@@ -7,6 +8,8 @@ import jp.ac.it_college.std.s14008.pdp.template.CharDisplay;
 import jp.ac.it_college.std.s14008.pdp.template.StringDisplay;
 
 import javax.xml.parsers.FactoryConfigurationError;
+import javax.xml.transform.dom.DOMResult;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -323,6 +326,48 @@ public class Main {
             return filename;
         }
     }
+
+    public class CompositeMain {
+            try {
+                System.out.println("Making root entries...");
+                Director rootdir = new Director("root");
+                Director bindir  = new Director("bin");
+                Director tmpdir = new Director("tmp");
+                Director usrdir = new Director("usr");
+                rootdir.add(bindir);
+                rootdir.add(tmpdir);
+                rootdir.add(usrdir);
+                bindir.add(new File("vi", 10000));
+                bindir.add(new File("latex", 20000));
+                rootdir.printList();
+
+
+                System.out.println("");
+                System.out.println("Making user entries...");
+                Director yuki = new Director("yuki");
+                Director hanako = new Director("hanako");
+                Director tomura = new Director("tomura");
+                usrdir.add(yuki);
+                usrdir.add(tomura);
+                yuki.add(new File("diary.html", 100));
+                yuki.add(new File("composite.java", 200));
+                hanako.add(new File("memo.text", 300));
+                tomura.add(new File("game.doc", 400));
+                tomura.add(new File("junk.mail", 500));
+                rootdir.printList();
+            } catch (FileTreatmentException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
+
+
+
+
+
+
 
 
 

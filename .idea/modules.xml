@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Border/Border.iml" filepath="$PROJECT_DIR$/Border/Border.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Command/Command.iml" filepath="$PROJECT_DIR$/Command/Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$USER_HOME$/jp.ac.it_college.std.s14008.pdp.factory.framework/Factory.iml" filepath="$USER_HOME$/jp.ac.it_college.std.s14008.pdp.factory.framework/Factory.iml" />
       <module fileurl="file://jp.ac.it_college.std.s14008.pdp.factory/Factory.iml" filepath="jp.ac.it_college.std.s14008.pdp.factory/Factory.iml" />
-      <module fileurl="file://jp.ac.it_college.std.s14008.pdp.Hand/Hand.iml" filepath="jp.ac.it_college.std.s14008.pdp.Hand/Hand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Flyweight/Flyweight.iml" />
+      <module fileurl="file://$USER_HOME$/jp.ac.it_college.std.s14008.pdp.Hand/Hand.iml" filepath="$USER_HOME$/jp.ac.it_college.std.s14008.pdp.Hand/Hand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mediator/Mediator.iml" filepath="$PROJECT_DIR$/Mediator/Mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memento/Memento.iml" filepath="$PROJECT_DIR$/Memento/Memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice of Design pettern.iml" filepath="$PROJECT_DIR$/Practice of Design pettern.iml" />
       <module fileurl="file://$USER_HOME$/jp.ac.it_college.std.s14008.pdp.prototype/Prototype.iml" filepath="$USER_HOME$/jp.ac.it_college.std.s14008.pdp.prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Proxy/Proxy.iml" />
+      <module fileurl="file://$USER_HOME$/jp.ac.it_college.std.s14008.pdp.responsibility/Responsibility.iml" filepath="$USER_HOME$/jp.ac.it_college.std.s14008.pdp.responsibility/Responsibility.iml" />
       <module fileurl="file://$USER_HOME$/jp.ac.it_college.std.s14008.pdp.Singleton/Singleton.iml" filepath="$USER_HOME$/jp.ac.it_college.std.s14008.pdp.Singleton/Singleton.iml" />
-      <module fileurl="file://jp.ac.it-college.std.s14008.pdp.abstract/abstract.iml" filepath="jp.ac.it-college.std.s14008.pdp.abstract/abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State/State.iml" filepath="$PROJECT_DIR$/State/State.iml" />
+      <module fileurl="file://$USER_HOME$/jp.ac.it-college.std.s14008.pdp.abstract/abstract.iml" filepath="$USER_HOME$/jp.ac.it-college.std.s14008.pdp.abstract/abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapter/adapter.iml" filepath="$PROJECT_DIR$/adapter/adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator/iterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visitor/visitor.iml" filepath="$PROJECT_DIR$/visitor/visitor.iml" />
     </modules>
   </component>
 </project>
